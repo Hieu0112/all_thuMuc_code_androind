@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Slide3_layout</string>
+    <string-array name="country">
+        <item>Viet Nam</item>
+        <item>Trung Quoc</item>
+        <item>Lao</item>
+        <item>Thai Lan</item>
+    </string-array>
+    <string-array name="phep">
+        <item>+</item>
+        <item>-</item>
+        <item>x</item>
+        <item>:</item>
+    </string-array>
+</resources>

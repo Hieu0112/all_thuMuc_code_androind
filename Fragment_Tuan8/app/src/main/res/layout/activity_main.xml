@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toTopOf="@+id/btA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btA"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="299dp"
+        android:text="Mo fragment A"
+        app:layout_constraintTop_toBottomOf="@id/txt"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btB"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="272dp"
+        android:layout_marginBottom="300dp"
+        android:text="Mo fragment B"
+        app:layout_constraintTop_toBottomOf="@id/txt"
+        app:layout_constraintStart_toStartOf="parent" />
+    <FrameLayout
+        android:id="@+id/frag"
+        app:layout_constraintTop_toBottomOf="@id/btA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
